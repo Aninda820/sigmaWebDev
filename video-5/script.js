@@ -1,0 +1,1 @@
+alert('Image, Lists and Tables');
