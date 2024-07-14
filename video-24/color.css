@@ -1,0 +1,11 @@
+.box{
+    border: 2px solid black;
+    padding: 34px;
+    box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.349);
+}
+p{
+    outline: 2px solid black;
+    font-size: 45px;
+    font-weight:1000;
+    text-shadow: 6px 5px 3px rgb(194, 45, 231);
+}
