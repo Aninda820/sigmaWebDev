@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    border: 2px solid black;
+    /* width: 1742px; */
+    width: 50vw;
+    height: 10vh;
+    text-align: center;
+    background-color: aqua;
+    margin: auto;
+}
+.container{
+    border: 2px solid black;
+    margin: 23px auto;      /*top-bottom   left-right*/
+    width: 50vw;
+    /* height: 80vh; */
+    min-height: 80vh;
+    background-color: aqua;
+    color: blueviolet;
+    font-size: 18px;
+}
+.container p {
+font-size: 2em;
+}
+
+.myContainer{
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    width: 50vw;
+    /* width: 100vmin; */
+    /* height: 100vmax; */
+    margin: 23px auto;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
