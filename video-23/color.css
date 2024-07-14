@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border: 2px solid rgb(46, 14, 187);
+    /* display: inline; */
+    display: inline-block;
+    padding: 45px;
+    margin: 34px;
+    width: 333px;
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    /* display: none; */    /*He will loose his existents totally and some one capture his place insted*/
+    /* visibility: hidden;     The space will be reserved for that thing */
+}
