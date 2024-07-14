@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    This is a paragraph tag &lt;p&gt;&lt;/p&gt;
+
+    <pre>
+                # Using a for loop to print numbers from 1 to 10
+        for num in range(1, 11):
+            print(num)
+
+    </pre>
+
+
+    <p>My is &nbsp;&nbsp;&nbsp;&nbsp; Naruto Usumaki</p>    <!--This tag is mainly use for Spaces-->
+    <blockquote cite="https://www.wikipedia.org/">
+        Quotetion text hear
+    </blockquote>
+
+    <q cite="https://www.wikipedia.org/">This a wikipidia site link</q>
+
+<pre>
+    <code>
+        # Program to check if a number is prime or not in Python
+        num = 29  # You can change this value to any positive integer
+
+        # Define a flag variable
+        flag = False
+
+        if num == 1:
+            print(num, "is not a prime number")
+        elif num > 1:
+            # Check for factors
+            for i in range(2, num):
+                if (num % i) == 0:
+                    # If a factor is found, set the flag to True and break out of the loop
+                    flag = True
+                    break
+
+            # Check if the flag is True
+            if flag:
+                print(num, "is not a prime number")
+            else:
+                print(num, "is a prime number")
+
+    </code>
+</pre>
+</body>
+</html>
