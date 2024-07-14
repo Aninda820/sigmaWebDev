@@ -1,0 +1,12 @@
+*{
+    /* list-style: none; */
+}
+nav ul li{
+    background-color: yellow;
+    color: red;
+    list-style-position: inside;
+    /* list-style-image: url(""); */
+    list-style-type: "😒";
+    /* list-style: disc inside url(""); */
+     border: 2px solid black;
+}
