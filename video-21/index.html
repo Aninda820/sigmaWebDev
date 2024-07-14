@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <div>
+        <h1 class="box" data-x="a">CSS Specificity</h1>
+    </div>
+
+    <p>High to low</p>
+    <ol>
+        <li>Inline</li>
+        <li>Internal</li>
+        <li>External</li>
+    </ol>
+
+    <table>
+        <tr>
+            <th>Selector</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>Inline styles</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td>ID selectors</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Class, Attribute selectors and Pseudo-classes</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Element selectors and Pseudo-elements</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Universal Selector</td>
+            <td>0</td>
+        </tr>
+    </table>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptas nihil iste, nam rem quia quos quae officia reprehenderit magni deleniti consequatur, amet modi adipisci maiores nisi unde sunt repudiandae?
+    </p>
+</body>
+</html>

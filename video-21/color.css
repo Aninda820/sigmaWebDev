@@ -1,0 +1,26 @@
+/* terget with class */
+h1{
+    color: yellow;
+}
+.box{
+    color: rebeccapurple;
+}
+
+.box{
+    color: aqua;        
+}
+
+h1.box{
+    color: red;             /* Win */
+}
+
+
+Attri
+[data-x=a]{
+    background-color: greenyellow;
+}
+
+
+p{
+    color: slateblue !important;       /*You can't change this color so easily*/
+}
