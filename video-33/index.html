@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi color nav</title>
+    <style>
+        :root{
+            --a: red;
+            --b: rgb(240, 243, 43);
+            --c: rgb(38, 241, 48);
+            --d: rgb(154, 32, 211);
+            --e: white;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .nav-bar {
+            background-color: aqua;
+        }
+
+        ul {
+            display: flex;
+        }
+        ul li {
+            margin: 10px;
+            padding: 20px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 30px;
+        }
+        li:first-child{
+            background-color: var(--a);
+            color: var(--e);
+        }
+        li:nth-child(2){
+            background-color: var(--b);
+            color: var(--e);
+        }
+        li:nth-child(3){
+            background-color: var(--c);
+            color: var(--e);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contuct</li>
+        </ul>
+    </div>
+</body>
+
+</html>
