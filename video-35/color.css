@@ -1,0 +1,51 @@
+.box:first-child {
+    background-color: red;
+}
+
+.box1::first-line {
+    color: yellow;
+}
+
+a,
+p,
+.box,
+[data-color="change"] {
+    background-color: aqua;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.box:nth-child(odd) {
+    background-color: blueviolet;
+    color: white;
+}
+
+.box:nth-child(even) {
+    background-color: rgb(106, 238, 123);
+    color: rgb(96, 143, 204);
+}
+
+.boxes::before {
+    content: "Aninda is a box";
+    font-size: 45px;
+    color: rgb(192, 7, 136);
+}
+
+.boxes::after {
+    content: "I will became a hacker";
+    font-size: 45px;
+    color: red;
+}
+
+::selection {
+    background-color: black;
+    color: greenyellow;
+}
+
+.box::first-letter {
+    color: rgb(255, 17, 0);
+}
+
+input::placeholder {
+    color: rgb(48, 64, 214);
+}
