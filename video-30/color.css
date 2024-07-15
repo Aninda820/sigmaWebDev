@@ -1,0 +1,38 @@
+:root{
+    --go: rgb(29, 231, 29);
+    /* --slow: yellow; */
+    --stop: red;
+    --color: blue;
+    --sec: rgb(218, 191, 248);
+    --defPading: 30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav{
+    /* background-color: rgb(10, 233, 103); */
+    background-color: var(--color);
+}
+ul{
+    display: flex;
+}
+ul li{
+    margin: 10px;
+    padding: var(--defPading);
+}
+ul li:nth-last-child(1){
+    --stop: rgb(18, 231, 185); 
+    background-color: var(--stop);
+}
+ul li:nth-child(2){
+    background-color: var(--slow, rgb(226, 71, 97));
+}
+ul li:nth-child(1){
+    background-color: var(--go);
+    border: 2px solid var(--stop);
+}
+.container{
+    background-color: var(--sec);
+}
