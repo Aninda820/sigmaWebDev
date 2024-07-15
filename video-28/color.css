@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px solid purple;
+    margin: 45px;
+    padding: 40px;
+    position: absolute;
+}
+.box{
+    height: 133px;
+    width: 80vw;
+    padding: 3px;
+    margin: 3px;
+    border: 2px solid black;
+}
+.box1{
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+.box2{
+    background-color: aqua;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    z-index: 1;
+}
+.box3{
+    background-color: greenyellow;
+    position: relative;
+    /* z-index: 0; */
+}
+.box4{
+    background-color: orange;
+    position: fixed;
+    bottom: 20px;
+    left: 20vw;
+}
+.box5{
+    background-color: rgb(107, 47, 175);
+    position: sticky;
+    top: 700px;
+    left: 30vw;
+}
