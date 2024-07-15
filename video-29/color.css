@@ -1,0 +1,40 @@
+body {
+    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    /* height: 250px; */
+    border-radius: 15px;
+    margin: 200px auto;
+}
+
+.image {
+    padding: 10px;
+}
+
+.image img {
+    width: 380px;
+    border-radius: 7px;
+}
+
+.capsul {
+    margin-left: 20px;
+}
+
+.capsul span {
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.content {
+    margin: 15px;
+    padding: 10px;
+}
+
+h1 {
+    text-decoration: underline;
+}
