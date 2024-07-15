@@ -1,0 +1,31 @@
+:root{
+    --go: rgb(53, 243, 53);
+    --a: 200px;
+    --b: 45px;
+}
+body{
+    background-color: red;
+}
+.boxes{
+    display: flex;
+}
+.box{
+    background-color: steelblue;
+    height: var(--a);
+    width: var(--a);
+    margin: var(--b);
+    font-size: var(--b);
+}
+@media screen and (orientation: landscape){
+    .boxes{
+        border: 10px solid var(--go);
+    }
+}
+@media only screen and (max-width: 500px){
+    body{
+        background-color: blueviolet;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+}
