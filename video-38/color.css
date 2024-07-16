@@ -1,0 +1,49 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    gap: 40px;
+    /* column-gap: 20px; */
+    /* row-gap: 10px; */
+    /* gap: 10px 20px; */
+}
+
+.item {
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    /* margin: 10px; */
+    border: 2px solid black;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order1 {
+    order: 2;
+    flex-grow: 3;
+    align-self: flex-start;
+}
+
+.order2 {
+    order: 5;
+    align-self: flex-end;
+}
+
+.order3 {
+    order: 1;
+    align-self: center;
+}
+
+.order4 {
+    order: 3;
+}
+
+.order5 {
+    order: 4;
+}
